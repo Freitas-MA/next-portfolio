@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="text-gray-500 h-screen bg-gradient-to-b from-stone-900 to-stone-950 z-0 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/50 scrollbar-thumb-rounded-full scrollbar-track-rounded-full hover:scrollbar-thumb-[#F7AB0A] transition duration-300 ease-in-out"
+    <div   id="Document" className="text-gray-500 h-screen bg-gradient-to-b from-stone-900 to-stone-950 z-0 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/50 scrollbar-thumb-rounded-full scrollbar-track-rounded-full hover:scrollbar-thumb-[#F7AB0A] transition duration-300 ease-in-out"
        >
       <Head>
         <title>Marcos Freitas /* Web Developer */</title>
@@ -21,15 +21,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main      >
         {/* Header */}
         <Header />
         {/* Hero */}
-        <section id="hero" className="">
+        <section id="hero">
           <Hero />
         </section>
         {/* About */}
-        <section id="about" className="">
+        <section id="about">
           <About />
         </section>
         {/* Experience */}
